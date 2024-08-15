@@ -1,0 +1,165 @@
+.main-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #001EB9;
+}
+
+.content {
+    margin-top: 60px; /* Adjust based on header height */
+}
+
+.header-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.search-bar-actions {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px; /* Space between the search bar and buttons */
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 600px; /* Adjust as needed */
+}
+
+.search-bar {
+    border: 1px solid #F7F7F7;
+    background-color: #F7F7F7;
+    border-radius: 9999px;
+    padding: 8px 16px;
+    flex: 1;
+}
+
+.search-button {
+    background-color: #001EB9;
+    color: white;
+    height: 30px;
+    border-radius: 9999px;
+    padding: 5px 16px;
+    font-size: small;
+    border: none;
+    cursor: pointer;
+    margin-left: -76px;
+}
+.new-product {
+    background-color: #001EB9;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 16px;
+    font-size: small;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.actions .btn {
+    border-radius: 9999px;
+    margin-right: 10px; /* Add space between buttons */
+}
+
+.favorite-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures the table is borderless */
+}
+
+.product-table th, 
+.product-table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.product-table th {
+    font-weight: bold;
+    color: #001EB9;
+    border-bottom: 1px solid transparent; /* No line under column names */
+}
+
+.product-table td {
+    border-bottom: 1px solid #969191; /* Line under each row */
+}
+
+.product-row {
+    background-color: #fff;
+}
+
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.product-name {
+    font-weight: bold;
+    color: #001EB9;
+    text-decoration: none;
+}
+
+.product-price {
+    color: #001EB9;
+}
+
+.product-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns buttons to the left */
+}
+
+.btn {
+    padding: 6px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+
+.btn {
+    border-radius: 9999px;
+}
