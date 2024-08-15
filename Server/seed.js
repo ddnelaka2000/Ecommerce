@@ -58,10 +58,10 @@ async function seedDB() {
     // Connect to the MongoDB server
     await client.connect();
 
-    // Get the database (replace 'yourDatabaseName' with the actual database name)
+    
     const database = client.db("Portal");
 
-    // Get the collection (replace 'products' with your actual collection name)
+   
     const productsCollection = database.collection('products');
 
     // Delete all existing documents in the collection
@@ -74,7 +74,7 @@ async function seedDB() {
   } catch (err) {
     console.error('Error seeding the database:', err);
   } finally {
-    // Ensure the client will close when you finish/error
+    
     await client.close();
   }
 }

@@ -49,14 +49,14 @@
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 10px; /* Space between the search bar and buttons */
+    gap: 10px; 
 }
 
 .search-bar-container {
     display: flex;
     align-items: center;
     flex: 1;
-    max-width: 600px; /* Adjust as needed */
+    max-width: 600px; 
 }
 
 .search-bar {
@@ -97,7 +97,7 @@
 
 .actions .btn {
     border-radius: 9999px;
-    margin-right: 10px; /* Add space between buttons */
+    margin-right: 10px;
 }
 
 .favorite-button img {
@@ -107,7 +107,7 @@
 
 .product-table {
     width: 100%;
-    border-collapse: collapse; /* Ensures the table is borderless */
+    border-collapse: collapse;
 }
 
 .product-table th, 
@@ -120,11 +120,11 @@
 .product-table th {
     font-weight: bold;
     color: #001EB9;
-    border-bottom: 1px solid transparent; /* No line under column names */
+    border-bottom: 1px solid transparent; 
 }
 
 .product-table td {
-    border-bottom: 1px solid #969191; /* Line under each row */
+    border-bottom: 1px solid #969191; 
 }
 
 .product-row {
@@ -150,7 +150,7 @@
 .product-actions {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Aligns buttons to the left */
+    justify-content: flex-start; 
 }
 
 .btn {

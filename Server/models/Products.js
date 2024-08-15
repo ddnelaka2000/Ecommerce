@@ -6,7 +6,7 @@ const productSchema = new mongoose.Schema({
   name: { type: String, required: true },
   description: { type: String, required: true },
   price: { type: Number, required: true },
-  images: [String], // Array to store image paths
+  images: [String], 
   thumbnail: { type: String }, 
   isFavorite: { type: Boolean, default: false }
   
